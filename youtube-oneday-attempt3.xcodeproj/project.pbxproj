@@ -17,6 +17,8 @@
 		7417A2182548B00A00A87F2D /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417A2172548B00A00A87F2D /* Video.swift */; };
 		7417A21B2548B04A00A87F2D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417A21A2548B04A00A87F2D /* Model.swift */; };
 		7417A21E2548E22D00A87F2D /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417A21D2548E22D00A87F2D /* Response.swift */; };
+		7417A2212549C17400A87F2D /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417A2202549C17400A87F2D /* VideoTableViewCell.swift */; };
+		7417A22A2549EEC000A87F2D /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7417A2292549EEC000A87F2D /* CacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		7417A2172548B00A00A87F2D /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		7417A21A2548B04A00A87F2D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		7417A21D2548E22D00A87F2D /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		7417A2202549C17400A87F2D /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		7417A2292549EEC000A87F2D /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,17 +70,59 @@
 			children = (
 				7417A1FF2548A0CC00A87F2D /* AppDelegate.swift */,
 				7417A2012548A0CC00A87F2D /* SceneDelegate.swift */,
-				7417A2032548A0CC00A87F2D /* ViewController.swift */,
-				7417A2052548A0CC00A87F2D /* Main.storyboard */,
+				7417A2272549C1A500A87F2D /* Helpers */,
+				7417A2262549C19900A87F2D /* Storyboards */,
+				7417A2252549C19100A87F2D /* Models */,
+				7417A2242549C18B00A87F2D /* Views */,
+				7417A2232549C18200A87F2D /* ViewControllers */,
 				7417A2082548A0CC00A87F2D /* Assets.xcassets */,
-				7417A20A2548A0CC00A87F2D /* LaunchScreen.storyboard */,
 				7417A20D2548A0CC00A87F2D /* Info.plist */,
-				7417A2142548AE5B00A87F2D /* Constants.swift */,
+			);
+			path = "youtube-oneday-attempt3";
+			sourceTree = "<group>";
+		};
+		7417A2232549C18200A87F2D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7417A2032548A0CC00A87F2D /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7417A2242549C18B00A87F2D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7417A2202549C17400A87F2D /* VideoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7417A2252549C19100A87F2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
 				7417A2172548B00A00A87F2D /* Video.swift */,
 				7417A21A2548B04A00A87F2D /* Model.swift */,
 				7417A21D2548E22D00A87F2D /* Response.swift */,
 			);
-			path = "youtube-oneday-attempt3";
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7417A2262549C19900A87F2D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7417A2052548A0CC00A87F2D /* Main.storyboard */,
+				7417A20A2548A0CC00A87F2D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7417A2272549C1A500A87F2D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7417A2142548AE5B00A87F2D /* Constants.swift */,
+				7417A2292549EEC000A87F2D /* CacheManager.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,10 +196,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7417A2042548A0CC00A87F2D /* ViewController.swift in Sources */,
+				7417A22A2549EEC000A87F2D /* CacheManager.swift in Sources */,
 				7417A2002548A0CC00A87F2D /* AppDelegate.swift in Sources */,
 				7417A2022548A0CC00A87F2D /* SceneDelegate.swift in Sources */,
 				7417A21B2548B04A00A87F2D /* Model.swift in Sources */,
 				7417A2152548AE5B00A87F2D /* Constants.swift in Sources */,
+				7417A2212549C17400A87F2D /* VideoTableViewCell.swift in Sources */,
 				7417A2182548B00A00A87F2D /* Video.swift in Sources */,
 				7417A21E2548E22D00A87F2D /* Response.swift in Sources */,
 			);
